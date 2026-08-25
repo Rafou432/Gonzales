@@ -4,10 +4,10 @@
    ========================================================= */
 
 :root {
-  --turquoise: #0E9594;
-  --turquoise-dark: #0B7574;
-  --green: #4CAF6D;
-  --green-dark: #3A8F57;
+  --turquoise: #1D99A3;
+  --turquoise-dark: #0F7A82;
+  --green: #65801B;
+  --green-dark: #4C6014;
   --dark: #1F2E2D;
   --text: #2B3A39;
   --muted: #5B6B69;
@@ -141,15 +141,18 @@ section:nth-of-type(even) { background: var(--bg-alt); }
   min-width: 0;
   text-decoration: none;
 }
-.logo { width: 44px; height: 44px; flex-shrink: 0; }
-.brand-text { display: flex; flex-direction: column; line-height: 1.2; min-width: 0; }
-.brand-name {
-  font-weight: 700;
-  color: var(--dark);
-  font-size: 1rem;
+.logo { width: 56px; height: 56px; flex-shrink: 0; }
+.brand-tagline {
+  display: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
   white-space: nowrap;
 }
-.brand-tagline { font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
+
+@media (min-width: 420px) {
+  .brand-tagline { display: inline; }
+}
 .header-call span { display: none; }
 .header-nav { display: none; }
 
@@ -477,7 +480,7 @@ section:nth-of-type(even) { background: var(--bg-alt); }
   padding: 22px;
   margin: 0;
 }
-.stars { color: var(--turquoise); font-size: 1.1rem; letter-spacing: 2px; margin-bottom: 8px; }
+.stars { color: var(--turquoise-dark); font-size: 1.1rem; letter-spacing: 2px; margin-bottom: 8px; }
 .review-card p { font-style: italic; color: var(--text); }
 .review-card cite {
   display: block;
