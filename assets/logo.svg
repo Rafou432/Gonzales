@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Goncalves et Fils - Maçonnerie</title>
+  <defs>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E9594"/>
+      <stop offset="100%" stop-color="#4CAF6D"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="112" fill="#FFFFFF" stroke="url(#ringGrad)" stroke-width="10"/>
+  <path d="M70 150 L70 100 L95 78 L120 100 L120 150 Z" fill="none" stroke="#0E9594" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M120 150 L120 100 L145 78 L170 100 L170 150 Z" fill="none" stroke="#4CAF6D" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="60" y1="150" x2="180" y2="150" stroke="#1F2E2D" stroke-width="8" stroke-linecap="round"/>
+  <text x="120" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#1F2E2D" letter-spacing="1">G&amp;FILS</text>
+</svg>
