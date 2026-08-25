@@ -30,7 +30,7 @@
      Légère apparition au scroll
   ------------------------------------------------ */
   var revealTargets = document.querySelectorAll(
-    ".service-card, .ba-slider, .review-card, .cert-item, .stat-item"
+    ".service-card, .ba-slider, .review-card, .cert-item, .stat-item, .why-list li, .value-card, .team-member"
   );
   if ("IntersectionObserver" in window && revealTargets.length) {
     revealTargets.forEach(function (el) { el.classList.add("reveal"); });
